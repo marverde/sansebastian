@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>San Sebastian</title>
+	<link rel="shourcut icon" type="image/x-icon" href="imagenes/logoss.png">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="divheader"></div>
+			<div class="divheader2">
+				<div class="botonmenu cursor" id="uno"></div>
+				<div class="botonmenu cursor" id="dos"></div>
+				<div class="botonmenu cursor" id="tres"></div>
+				<div class="botonmenu cursor" id="cuatro"></div>
+				<div class="botonmenu cursor" id="cinco"></div>
+			</div>
+			<div class="divheader"></div>
+		</header>
+		<div class="main">
+			<div class="slides">
+				<img src="imagenes/slash.jpg">
+				<img src="imagenes/slash2.jpg">
+				<img src="imagenes/slash3.jpg">
+				<img src="imagenes/slash4.jpg">
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3700,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 3500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});	</script>
+</body>
+</html>

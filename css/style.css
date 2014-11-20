@@ -1,0 +1,179 @@
+@charset "utf-8"
+@import url(estilo.css);
+
+body{
+	background: url(../imagenes/textura.png);
+	color:#0F0F0D;
+	font-family: Helvetica, Arial, Tahoma;
+	font-style: 11pt;
+	}
+.contenedor{
+/*width: 100%;*/
+min-height:700px;
+max-height: 1120px;
+background: #fff;
+margin-left: auto;
+padding-top: 0px;
+margin-right: auto;
+width: 965px;
+border-radius: 0px;
+margin-top: 5px;
+position: relative;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	margin-top: 0px;
+}
+
+.divheader{
+	width: 28%;
+	height:100%;
+	float: left;
+}
+
+.divheader2{
+	width: 44%;
+	height:100%;
+	float: left;
+}
+
+.botonmenu{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+
+div#uno{
+	background: url(../imagenes/inicio.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#dos{
+	background: url(../imagenes/lugar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#tres{
+	background: url(../imagenes/historia.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#cuatro{
+	background: url(../imagenes/galeria.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#cinco{
+	background: url(../imagenes/contactos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+#uno:hover{
+	background: url(../imagenes/inicio.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#dos:hover{
+	background: url(../imagenes/lugar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#tres:hover{
+	background: url(../imagenes/historia.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#cuatro:hover{
+	background: url(../imagenes/galeria.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#cinco:hover{
+	background: url(../imagenes/contactos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+.cursor{ cursor: pointer;}
+
+.main{
+background: url(../imagenes/logob.png);
+width: 100%;
+height: 400px;
+margin-top: 5px;
+position: absolute;
+z-index: 2000px;
+}
+
+.slides{
+	width: 100%;
+
+}
+
+.slides img{
+width: 100%;
+}
+
+.slidesjs-pagination {
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li {
+		float: left;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+	background: #AE2485;
+}
+
+.slides .active {
+	background: #AE2485;
+}
+
+.slidesjs-navigation{
+	background: #AE2485;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
