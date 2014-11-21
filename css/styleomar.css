@@ -126,3 +126,9 @@ div#cinco{
 
 .cursor{ cursor: pointer;}
 
+.cabecerahisto{
+	width: 100%;
+	height: 400px;
+	background-color: red;
+}
+
