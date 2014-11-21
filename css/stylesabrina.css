@@ -1,0 +1,308 @@
+@charset "utf-8"
+@import url(estilo.css);
+
+body{
+	background: url(../imagenes/textura.png);
+	color:#0F0F0D;
+	font-family: Helvetica, Arial, Tahoma;
+	font-size: 12pt;
+	}
+	
+.contenedor{
+min-height: 1520px;
+max-height: 2000px;
+background: #fff;
+margin-left: auto;
+padding-top: 0px;
+margin-right: auto;
+width: 965px;
+border-radius: 0px;
+margin-top: 5px;
+position: relative;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	margin-top: 0px;
+}
+
+.divheader{
+	width: 28%;
+	height:100%;
+	float: left;
+}
+
+.divheader2{
+	width: 44%;
+	height:100%;
+	float: left;
+}
+
+.botonmenu{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+
+div#uno{
+	background: url(../imagenes/inicio.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#dos{
+	background: url(../imagenes/lugar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#tres{
+	background: url(../imagenes/historia.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#cuatro{
+	background: url(../imagenes/galeria.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+div#cinco{
+	background: url(../imagenes/contactos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+#uno:hover{
+	background: url(../imagenes/inicio.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#dos:hover{
+	background: url(../imagenes/lugar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#tres:hover{
+	background: url(../imagenes/historia.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#cuatro:hover{
+	background: url(../imagenes/galeria.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+#cinco:hover{
+	background: url(../imagenes/contactos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #AE2485;
+}
+
+
+.cursor{ cursor: pointer;}
+
+
+.imagenuno{
+	width: 100%;
+	height: 400px;
+	margin-top: 15px;
+	background: url(../imagenes/turismo-head.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+	}
+
+.divbody{
+	width: 100%;
+	height: 635px;
+	margin-top: 15px;
+	margin-left: 0px;
+	position: absolute;
+	position: relative;
+}
+
+.imagendos{
+	width: 100%;
+	height: 200px;
+	margin-top: 0px;
+	background: url(../imagenes/rios-body.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+
+.imagentres{
+	width: 100%;
+	height: 200px;
+	margin-top: 15px;
+	background: url(../imagenes/iglesias-body.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+
+.imagencuatro{
+	width: 100%;
+	height: 200px;
+	margin-top: 15px;
+	background: url(../imagenes/telares-body.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000;
+}
+
+
+
+.transp-black{
+	width: 90%;
+	height: 400px;
+	background: url(../imagenes/transp-black.png);
+	background-position: center;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+
+
+.transp-green-left{
+	width: 25%;
+	height: 200px;
+	background: url(../imagenes/transp-green.png);
+	background-position: left;
+	margin-top: 0px;
+	margin-left: 5%;
+	float: left;
+	position: absolute;
+	display: inline-block;
+}
+
+.transp-green-right{
+	width: 25%;
+	height: 200px;
+	background: url(../imagenes/transp-green.png);
+	background-position: center;
+	margin-top: 0px;
+	margin-left: 70%;
+	float: right;
+	position: absolute;
+	display: inline-block;
+}
+
+
+.titulo{
+	width: 100%;
+	height: 40px;
+	color: white;
+	font-size: 17pt;
+	text-align: center;
+	padding-top: 25px;
+}
+
+p{
+	text-align: justify;
+	line-height: 19pt;
+	font-size: 14pt;
+	color: white;
+	width: 58%;
+	margin-left: 20%;
+
+}
+
+.logo{
+	width: 100%;
+	height: 400px;
+	margin-top: -135px;
+	background: url(../imagenes/logob.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.subtitulo{
+	width: 100%;
+	height: 60px;
+	color: white;
+	font-size: 22pt;
+	text-align: center;
+	letter-spacing: 3px;
+	padding-top: 37%;
+}
+
+
+.lista{
+	text-align: justify;
+	line-height: 20pt;
+	letter-spacing: 2px;
+	font-size: 14pt;
+	color: white;
+	width: 58%;
+	margin-left: 20%;
+	margin-top: 13%
+
+}
+
+.lista2{
+	text-align: justify;
+	line-height: 20pt;
+	font-size: 14pt;
+	color: white;
+	width: 77%;
+	margin-left: 10%;
+	margin-top: 12%
+
+}
+
+
+.texto{
+	text-align: justify;
+	line-height: 20pt;
+	font-size: 14pt;
+	color: white;
+	width: 77%;
+	margin-left: 10%;
+	margin-top: 7%
+
+}
+
+.divtext{
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+	background-color: white;
+	text-align: justify;
+	line-height: 20pt;
+	letter-spacing: 2px;
+	font-size: 17pt;
+	color: black;
+	width: 55%;
+	margin-left: 24%;
+	margin-bottom: 20px;
+}
+
