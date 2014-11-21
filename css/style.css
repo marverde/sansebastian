@@ -212,11 +212,24 @@ width: 100%;
 	background-position: center;
 	margin-left: 5%;
 	margin-top: 20px;
+	position: relative;
 }
 
 .cabecera{
 	width: 100%;
 	height: 60px;
 	margin-top: 0px;
-	background-color: black;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p{
+	text-align: justify;
+	font-size: 18pt;
+	width: 80%;
+	position: absolute;
+	margin-left: 10%;
+	overflow-y: scroll;
+	max-height: 250px;
 }
