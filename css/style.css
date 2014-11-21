@@ -1,6 +1,26 @@
 @charset "utf-8"
 @import url(estilo.css);
 
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #424242;
+	border-radius: 4px;
+}
+
 body{
 	background: url(../imagenes/textura.png);
 	color:#0F0F0D;
@@ -9,7 +29,7 @@ body{
 	}
 .contenedor{
 /*width: 100%;*/
-min-height:1000px;
+min-height:1400px;
 max-height: 1520px;
 background: #fff;
 margin-left: auto;
@@ -232,4 +252,12 @@ p{
 	margin-left: 10%;
 	overflow-y: scroll;
 	max-height: 250px;
+	padding-right: 15px;
+}
+
+.logosbajos{
+	width: 100%;
+	height: 400px;
+	background-color: red;
+	margin-top: 15px;
 }
