@@ -258,6 +258,45 @@ p{
 .logosbajos{
 	width: 100%;
 	height: 400px;
-	background-color: red;
+	margin-top: 55px;
+	position: relative;
+}
+
+.logosbotones{
+	width: 33%;
+	height: 200px;
+	background-position: center;
+	background: url(../imagenes/logolrojo.png);
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.logosbotones2{
+	width: 33%;
+	height: 200px;
+	background-position: center;
+	background: url(../imagenes/logohrojo.png);
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.logosbotones3{
+	width: 33%;
+	height: 200px;
+	background-position: center;
+	background: url(../imagenes/logoprojo.png);
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block;
+}
+
+.linea{
+	width: 90%;
+	height:3px;
 	margin-top: 15px;
+	float: left;
+	position: absolute;
 }
