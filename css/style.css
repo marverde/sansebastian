@@ -300,3 +300,44 @@ p{
 	float: left;
 	position: absolute;
 }
+
+.logosbotones3{
+	width: 33%;
+	height: 200px;
+	background-position: center;
+	background: url(../imagenes/logoprojo.png);
+	background-repeat: no-repeat;
+	position: relative;
+	display: inline-block; }
+
+	#seis:hover{
+	background: url(../imagenes/logolmorado.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	display: inline-block;
+	background-position: center;
+	width: 33%;
+	height: 200px;
+}
+
+	#siete:hover{
+	background: url(../imagenes/logohmorado.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	display: inline-block;
+	background-position: center;
+	width: 33%;
+	height: 200px;
+}
+	#ocho:hover{
+	background: url(../imagenes/logopmorado.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	display: inline-block;
+	background-position: center;
+	width: 33%;
+	height: 200px;
+}
