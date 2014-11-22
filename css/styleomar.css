@@ -9,8 +9,8 @@ body{
 	}
 	
 .contenedor{
-min-height:1000px;
-max-height: 1520px;
+min-height:1600px;
+max-height: 1820px;
 background: #fff;
 margin-left: auto;
 padding-top: 0px;
@@ -165,7 +165,7 @@ div#cinco{
 	margin-top: 25px;
 }
 
-p{
+.parr{
 	text-align: justify;
 	font-size: 16pt;
 	width: 80%;
@@ -175,4 +175,65 @@ p{
 	padding-right: 15px;
 	position: absolute;
 	color: white;
+}
+
+.imagenes{
+	width: 350px;
+	height: 800px;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.imgdiv{
+	width: 305px;
+	height: 250px;
+	background: url(../imagenes/historia1.jpg);
+	margin-left: 45px;
+	margin-top: 15px;
+}
+.imgdiv2{
+	width: 305px;
+	height: 250px;
+	background: url(../imagenes/historia2.jpg);
+	margin-left: 45px;
+	margin-top: 15px;
+}
+
+.imgdiv3{
+	width: 305px;
+	height: 250px;
+	background: url(../imagenes/historia3.jpg);
+	margin-left: 45px;
+	margin-top: 15px;
+}
+
+.historia{
+	width: 600px;
+	height: 800px;
+	display: inline-block;
+}
+
+.historiat{
+	width: 100%;
+	height: 70px;
+	background-color: yellow;
+}
+
+.historiap{
+	width: 100%;
+	height: 720px;
+	position: relative;
+}
+
+.parr2{
+	text-align: justify;
+	font-size: 13pt;
+	width: 90%;
+	position: absolute;
+	margin-left: 5%;
+	max-height: 250px;
+	padding-right: 15px;
+	position: absolute;
+	color: black;
+
 }
