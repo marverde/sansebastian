@@ -2,7 +2,27 @@
 @import url(estilo.css);
 
 
+
 ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #424242;
+	border-radius: 4px;
+}
+
+::-moz-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
@@ -29,9 +49,9 @@ body{
 	}
 .contenedor{
 /*width: 100%;*/
-min-height:1400px;
-max-height: 1520px;
-background: #fff;
+min-height:1500px;
+max-height: 1720px;
+background: url(../imagenes/white.png);
 margin-left: auto;
 padding-top: 0px;
 margin-right: auto;
@@ -257,7 +277,7 @@ p{
 
 .logosbajos{
 	width: 100%;
-	height: 400px;
+	height: 200px;
 	margin-top: 55px;
 	position: relative;
 }
@@ -340,4 +360,75 @@ p{
 	background-position: center;
 	width: 33%;
 	height: 200px;
+}
+
+
+.descripciones{
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	position: relative;
+	
+}
+
+.deslogo{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.pd{
+	text-align: center;
+	font-size: 14pt;
+	width: 90%;
+	position: absolute;
+	margin-left: 5%;
+	max-height: 250px;
+	padding-right: 15px;
+	position: absolute;
+	color: #bb4745;
+	margin-top: 15px;
+	overflow-y:hidden;
+}
+
+.linea{
+	width: 90%;
+	height: 2px;
+	background-color: #686A5B;
+	margin-top: 25px;
+	margin-left: 5%;
+}
+
+.redes{
+	width: 100%;
+	height: 200px;
+	margin-top: 50px;
+}
+
+.redesfondo{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/tw.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.redesfondo2{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/log.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.redesfondo3{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/fb.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }

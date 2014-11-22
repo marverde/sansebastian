@@ -20,6 +20,25 @@
 	border-radius: 4px;
 }
 
+::-moz-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #424242;
+	border-radius: 4px;
+}
+
 body{
 	background: url(../imagenes/textura.png);
 	color:#0F0F0D;
@@ -28,9 +47,9 @@ body{
 	}
 	
 .contenedor{
-min-height:1600px;
+min-height:1750px;
 max-height: 1820px;
-background: #fff;
+background: url(../imagenes/white.png);
 margin-left: auto;
 padding-top: 0px;
 margin-right: auto;
@@ -250,4 +269,45 @@ div#cinco{
 	position: absolute;
 	color: black;
 	margin-top: 15px;
+}
+
+.linea{
+	width: 90%;
+	height: 2px;
+	background-color: #686A5B;
+	margin-top: 60px;
+	margin-left: 5%;
+}
+
+.redes{
+	width: 100%;
+	height: 200px;
+	margin-top: 0px;
+}
+
+.redesfondo{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/twg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.redesfondo2{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/log.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.redesfondo3{
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: url(../imagenes/fbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
