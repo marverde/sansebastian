@@ -189,14 +189,14 @@ div#cinco{
 	height: 250px;
 	background: url(../imagenes/historia1.jpg);
 	margin-left: 45px;
-	margin-top: 15px;
+	margin-top: 22px;
 }
 .imgdiv2{
 	width: 305px;
 	height: 250px;
 	background: url(../imagenes/historia2.jpg);
 	margin-left: 45px;
-	margin-top: 15px;
+	margin-top: 22px;
 }
 
 .imgdiv3{
@@ -204,7 +204,7 @@ div#cinco{
 	height: 250px;
 	background: url(../imagenes/historia3.jpg);
 	margin-left: 45px;
-	margin-top: 15px;
+	margin-top: 22px;
 }
 
 .historia{
@@ -213,11 +213,6 @@ div#cinco{
 	display: inline-block;
 }
 
-.historiat{
-	width: 100%;
-	height: 70px;
-	background-color: yellow;
-}
 
 .historiap{
 	width: 100%;
@@ -235,5 +230,5 @@ div#cinco{
 	padding-right: 15px;
 	position: absolute;
 	color: black;
-
+	margin-top: 15px;
 }
